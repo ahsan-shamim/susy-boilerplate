@@ -1,0 +1,26 @@
+/*=============================================>>>>>
+= cdn css block =
+===============================================>>>>>*/
+/* normalize css */
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css";
+/* font awasome css */
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+/* owl carousel css */
+@import "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css";
+/*=============================================>>>>>
+= base block =
+===============================================>>>>>*/
+h1, h2, h3, h4, h5, p {
+  margin-top: 0; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+a {
+  color: inherit;
+  font-size: inherit; }
+
+img {
+  max-width: 100%; }
