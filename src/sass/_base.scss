@@ -1,17 +1,21 @@
 /*=============================================>>>>>
-= base block =
+= Base style =
 ===============================================>>>>>*/
+// susy maps
 $susy: (
   columns: 12,
   gutters: 1/4,
   math: fluid,
   output: float,
-  gutter-position: inside,
+  gutter-position: after,
 );
 
-
-h1,h2,h3,h4,h5,p {
-  margin-top: 0;
+body {
+  font-size: inherit;
+  line-height: inherit;
+}
+h1,h2,h3,h4,h5,p,body {
+  margin: 0;
 }
 ul {
   list-style: none;
@@ -21,7 +25,17 @@ ul {
 a {
   color: inherit;
   font-size: inherit;
+  &:hover,&:focus {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    outline: 0;
+  }
 }
 img {
   max-width: 100%;
 }
+
+
+/*= End of Base style =*/
+/*=============================================<<<<<*/

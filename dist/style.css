@@ -1,26 +1,186 @@
-/*=============================================>>>>>
-= cdn css block =
-===============================================>>>>>*/
-/* normalize css */
-@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css";
-/* font awasome css */
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+/* Font awesome */
+@import url(css/font-awesome.min.css);
+/* bootstrap css*/
+@import url(css/bootstrap.min.css);
 /* owl carousel css */
-@import "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css";
+@import url(css/owl.carousel.min.css);
 /*=============================================>>>>>
-= base block =
+= helper classes =
 ===============================================>>>>>*/
-h1, h2, h3, h4, h5, p {
-  margin-top: 0; }
+.clarfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*= End of helper classes =*/
+/*=============================================<<<<<*/
+/*=============================================>>>>>
+= Base style =
+===============================================>>>>>*/
+body {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+h1, h2, h3, h4, h5, p, body {
+  margin: 0;
+}
 
 ul {
   list-style: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 a {
   color: inherit;
-  font-size: inherit; }
+  font-size: inherit;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  outline: 0;
+}
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+}
+
+/*= End of Base style =*/
+/*=============================================<<<<<*/
+/*=============================================>>>>>
+= typography style =
+===============================================>>>>>*/
+html {
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+@media all and (min-width: 768px) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  html {
+    font-size: 125%;
+    line-height: 1.5;
+  }
+}
+
+/* h1 typography */
+h1 {
+  font-size: 2.3212rem;
+  line-height: 2.7rem;
+  margin: 1.12rem 0;
+}
+
+@media all and (min-width: 768px) {
+  h1 {
+    font-size: 2.3212rem;
+    line-height: 2.85rem;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  h1 {
+    font-size: 2.3212rem;
+    line-height: 3rem;
+  }
+}
+
+/* h2 typography */
+h2 {
+  font-size: 2.08929rem;
+  line-height: 2.4rem;
+  margin: 0.84rem 0;
+}
+
+@media all and (min-width: 768px) {
+  h2 {
+    font-size: 2.08929rem;
+    line-height: 2.55rem;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  h2 {
+    font-size: 2.08929rem;
+    line-height: 2.7rem;
+  }
+}
+
+/* h3 typography */
+h3 {
+  font-size: 1.88055rem;
+  line-height: 2.1rem;
+  margin: 0.56rem 0;
+}
+
+@media all and (min-width: 768px) {
+  h3 {
+    font-size: 1.88055rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  h3 {
+    font-size: 1.88055rem;
+    line-height: 2.4rem;
+  }
+}
+
+/* h4 typography */
+h4 {
+  font-size: 1.69266rem;
+  line-height: 1.8rem;
+  margin: 0.42rem 0;
+}
+
+@media all and (min-width: 768px) {
+  h4 {
+    font-size: 1.69266rem;
+    line-height: 1.95rem;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  h4 {
+    font-size: 1.69266rem;
+    line-height: 2.1rem;
+  }
+}
+
+/* h5 typography */
+h5 {
+  font-size: 1.52355rem;
+  line-height: 1.5rem;
+  margin: 0.28rem 0;
+}
+
+@media all and (min-width: 768px) {
+  h5 {
+    font-size: 1.52355rem;
+    line-height: 1.65rem;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  h5 {
+    font-size: 1.52355rem;
+    line-height: 1.8rem;
+  }
+}
+
+/* p typography */
+p {
+  margin: 0.42rem 0;
+}
+
+/*= End of typography style =*/
+/*=============================================<<<<<*/
