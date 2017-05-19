@@ -55,32 +55,32 @@ img {
 = typography style =
 ===============================================>>>>>*/
 html {
-  font-size: 14px;
+  font-size: 87.5%;
   line-height: 1.4;
 }
 
 @media (min-width: 490px) {
   html {
-    font-size: 16px;
+    font-size: 100%;
   }
 }
 
 @media (min-width: 768px) {
   html {
-    font-size: 18px;
+    font-size: 112.5%;
     line-height: 1.5;
   }
 }
 
 @media (min-width: 992px) {
   html {
-    font-size: 20px;
+    font-size: 125%;
   }
 }
 
 @media (min-width: 1600px) {
   html {
-    font-size: 21px;
+    font-size: 121.25%;
     line-height: 1.6;
   }
 }
