@@ -1,0 +1,27 @@
+/*=============================================>>>>>
+= typography style =
+===============================================>>>>>*/
+html {
+  font-size: 97.5%;
+  line-height: 1.5;
+  @include breakpoint(490px) {
+    font-size: 100%;
+  }
+  @include breakpoint(768px) {
+    font-size: 112.5%;
+  }
+  @include breakpoint(992px) {
+    font-size: 118%;
+  }
+  @include breakpoint(1600px) {
+    font-size: 121.25%;
+    line-height: 1.6;
+  }
+}
+h1,.h1,h2,.h2,h3,.h3,h4,.h4 {
+  line-height: 1.6;
+}
+
+
+/*= End of typography style =*/
+/*=============================================<<<<<*/
